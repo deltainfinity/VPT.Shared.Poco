@@ -1,6 +1,4 @@
-﻿
-
-namespace VPT.Shared.Poco.DTO.Accounts.Form
+﻿namespace VPT.Shared.Poco.DTO.Accounts.Form
 {
     /// <summary>
     /// The single sign on data used to access the subject portal

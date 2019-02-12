@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace VPT.Shared.Poco.DTO.Accounts.Form
+﻿namespace VPT.Shared.Poco.DTO.Accounts.Form
 {
     /// <summary>
     /// Contains the system user and subject delegation information
@@ -10,10 +8,7 @@ namespace VPT.Shared.Poco.DTO.Accounts.Form
         /// <summary>
         /// Default constructor
         /// </summary>
-        public SystemUserSubjectDelegateDTO()
-        {
-
-        }
+        public SystemUserSubjectDelegateDTO() { }
 
         /// <summary>
         /// Copy constructor for building a DTO from the system user ExternalSystemUserDetailsRequestDTO

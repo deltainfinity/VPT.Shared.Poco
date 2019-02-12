@@ -1,5 +1,4 @@
-﻿using System;
-using VPT.Shared.Poco.Model.Accounts.Database;
+﻿using VPT.Shared.Poco.Model.Accounts.Database;
 
 namespace VPT.Shared.Poco.DTO.Accounts.Database
 {

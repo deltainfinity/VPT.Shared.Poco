@@ -35,7 +35,5 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
         public string Email { get; set; }
 
         public int? PersonID { get; set; }
-
     }
-
 }

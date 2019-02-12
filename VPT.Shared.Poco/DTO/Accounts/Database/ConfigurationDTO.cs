@@ -1,10 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using VPT.Shared.Poco.Model.Accounts.Database;
+﻿using VPT.Shared.Poco.Model.Accounts.Database;
 
 namespace VPT.Shared.Poco.DTO.Accounts.Database
 {
@@ -27,9 +21,5 @@ namespace VPT.Shared.Poco.DTO.Accounts.Database
         public string SystemOfRecordName { get; set; }
         public string ReasonForAssessment { get; set; }
         public AdminUser AdminUser { get; set; }
-
     }
-
-   
-
 }

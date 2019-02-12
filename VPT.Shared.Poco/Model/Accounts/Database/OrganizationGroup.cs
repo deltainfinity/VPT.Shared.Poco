@@ -17,7 +17,6 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
         public int OrganizationID { get; set; }
 
         public string DisplayName { get; set; }
-
     }
 
 }

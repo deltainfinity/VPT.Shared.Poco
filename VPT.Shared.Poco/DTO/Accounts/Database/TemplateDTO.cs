@@ -1,10 +1,8 @@
-﻿using VPT.Shared.Poco.Model.Accounts.Database;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 
 namespace VPT.Shared.Poco.DTO.Accounts.Database
 {
-   public class TemplateDTO
+    public class TemplateDTO
     {
         public TemplateDTO()
         { }

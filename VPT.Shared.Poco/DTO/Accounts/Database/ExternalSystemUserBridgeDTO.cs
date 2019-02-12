@@ -63,6 +63,5 @@ namespace VPT.Shared.Poco.DTO.Accounts.Database
         /// </summary>
         [JsonProperty("createdByUserID")]
         public string CreatedByUserID { get; set; }
-
     }
 }

@@ -48,7 +48,5 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
         /// </summary>
         public string Description { get; set; }
 
-       
     }
-   
 }

@@ -2,10 +2,7 @@
 {
     public class UserInfoDTO
     {
-        public UserInfoDTO()
-        {
-
-        }
+        public UserInfoDTO()   {}
         public string Token { get; set; }
         public int LoginSystem { get; set; }
         public int PersonID { get; set; }

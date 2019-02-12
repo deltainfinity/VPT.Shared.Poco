@@ -28,7 +28,5 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
         /// The LMS url of the organization site
         /// </summary>
         public string LMSUrl { get; set; }
-
     }
-
 }

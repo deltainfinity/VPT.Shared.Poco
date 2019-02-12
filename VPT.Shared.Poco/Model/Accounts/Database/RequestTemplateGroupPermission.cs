@@ -1,5 +1,4 @@
 ﻿using NPoco;
-using VPT.Shared.Poco.DTO.Accounts.Database;
 
 namespace VPT.Shared.Poco.Model.Accounts.Database
 {

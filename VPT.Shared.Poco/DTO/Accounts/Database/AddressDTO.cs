@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using VPT.Shared.Poco.Enum.Accounts;
 using VPT.Shared.Poco.Model.Accounts.Database;
 
 namespace VPT.Shared.Poco.DTO.Accounts.Database

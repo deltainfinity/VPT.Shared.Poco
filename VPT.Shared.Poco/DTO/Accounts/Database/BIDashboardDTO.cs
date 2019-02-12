@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using VPT.Shared.Poco.Model.Accounts.Database;
 
 namespace VPT.Shared.Poco.DTO.Accounts.Database

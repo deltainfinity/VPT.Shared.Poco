@@ -1,8 +1,7 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 using VPT.Shared.Poco.DTO.Accounts.Aggregate;
 using VPT.Shared.Poco.DTO.Accounts.Database;
-using System.Collections.Generic;
 
 namespace VPT.Shared.Poco.DTO.Accounts.Form
 {

@@ -1,11 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Newtonsoft.Json;
-using VPT.Shared.Poco.DTO.Accounts.Database;
-using VPT.Shared.Poco.Model.Accounts.Database;
-using System;
-
-namespace VPT.Shared.Poco.DTO.Accounts.Aggregate
+﻿namespace VPT.Shared.Poco.DTO.Accounts.Aggregate
 {
     public class UpdateSecondaryEmailDTO
     {

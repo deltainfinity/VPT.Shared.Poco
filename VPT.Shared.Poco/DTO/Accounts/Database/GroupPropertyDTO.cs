@@ -32,7 +32,6 @@ namespace VPT.Shared.Poco.DTO.Accounts.Database
 
         [JsonProperty("value")]
         public string Value { get; set; }
-
     }
 }
 

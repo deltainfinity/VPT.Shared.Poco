@@ -5,9 +5,7 @@ namespace VPT.Shared.Poco.DTO.Accounts.Database
 {
     public class GroupPermissionDTO : BaseDatabaseDTO
     {
-
-        public GroupPermissionDTO()
-        { }
+        public GroupPermissionDTO(){ }
 
         public GroupPermissionDTO(GroupPermission source)
         {
@@ -28,6 +26,5 @@ namespace VPT.Shared.Poco.DTO.Accounts.Database
 
         [JsonProperty("PermissionID")]
         public int PermissionID { get; set; }       
-
     }
 }

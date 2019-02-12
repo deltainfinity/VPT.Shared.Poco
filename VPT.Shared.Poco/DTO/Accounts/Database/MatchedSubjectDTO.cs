@@ -4,7 +4,6 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
 {
     public class MatchedSubjectDTO
     {
-
         public MatchedSubjectDTO()
         { }
 
@@ -51,7 +50,5 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
 
         [JsonProperty("DateReceived")]
         public string DateReceived { get; set; }
-
-
     }
 }

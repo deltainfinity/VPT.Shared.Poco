@@ -22,7 +22,6 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
         public string CreatedByUserID { get; set; }
 
         public DateTime DateCreated { get; set; }
-
     }
 }
 

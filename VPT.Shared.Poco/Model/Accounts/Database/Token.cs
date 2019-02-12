@@ -14,7 +14,5 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
         public string IdToken { get; set; }
         public string SORToken { get; set; }
         public DateTime CreatedDate { get; set; }
-               
     }
-
 }

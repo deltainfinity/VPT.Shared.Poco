@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VPT.Shared.Poco.DTO.Accounts.Database
+﻿namespace VPT.Shared.Poco.DTO.Accounts.Database
 {
-public class OrganizationDetailDTO
+    public class OrganizationDetailDTO
     {
         public string OrganizationName { get; set; }
         public string OrganizationDisplayName { get; set; }

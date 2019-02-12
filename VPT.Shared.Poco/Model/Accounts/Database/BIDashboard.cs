@@ -1,6 +1,5 @@
 ﻿using NPoco;
 
-
 namespace VPT.Shared.Poco.Model.Accounts.Database
 {
     [TableName("BIDashboard")]
@@ -24,8 +23,6 @@ namespace VPT.Shared.Poco.Model.Accounts.Database
         public int PermissionID { get; set; }
 
         public bool IsDefault { get; set; }
-        
-
     }
 }
 
