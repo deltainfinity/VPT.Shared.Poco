@@ -5,16 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DTO\Evolve\**" />
+    <Compile Remove="DTO\PDFGenerator\**" />
+    <EmbeddedResource Remove="DTO\Evolve\**" />
+    <EmbeddedResource Remove="DTO\PDFGenerator\**" />
+    <None Remove="DTO\Evolve\**" />
+    <None Remove="DTO\PDFGenerator\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DTO\Accounts\Form\" />
     <Folder Include="DTO\API\" />
-    <Folder Include="DTO\Evolve\" />
-    <Folder Include="DTO\PDFGenerator\" />
     <Folder Include="Model\Accounts\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="NPoco" Version="3.9.4" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
 </Project>
