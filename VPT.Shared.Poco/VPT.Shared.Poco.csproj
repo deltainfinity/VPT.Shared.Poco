@@ -5,12 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\Accounts\" />
+    <Folder Include="DTO\Accounts\Form\" />
     <Folder Include="DTO\API\" />
     <Folder Include="DTO\Evolve\" />
     <Folder Include="DTO\PDFGenerator\" />
-    <Folder Include="Enum\" />
-    <Folder Include="Model\" />
+    <Folder Include="Model\Accounts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="NPoco" Version="3.9.4" />
   </ItemGroup>
 
 </Project>
