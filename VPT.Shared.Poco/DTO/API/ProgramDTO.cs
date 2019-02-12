@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using VPT.Accounts.Shared.DTO.Aggregate;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
 using VPT.Shared.Poco.Constants;
 using VPT.Shared.Poco.Enum.API;
 using VPT.Shared.Poco.Model.API;

@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
 using VPT.Shared.Poco.Model.API;
 
 namespace VPT.Shared.Poco.DTO.API.Aggregate

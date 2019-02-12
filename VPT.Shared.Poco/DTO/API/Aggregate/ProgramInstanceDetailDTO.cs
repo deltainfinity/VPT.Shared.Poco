@@ -2,8 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using VPT.Accounts.Shared.DTO.Aggregate;
-using VPT.Accounts.Shared.DTO.Database;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
+using VPT.Shared.Poco.DTO.Accounts.Database;
 using VPT.Shared.Poco.Model.API;
 
 namespace VPT.Shared.Poco.DTO.API.Aggregate

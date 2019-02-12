@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using VPT.Shared.Poco.Model.API;
-using VPT.Accounts.Shared.DTO.Aggregate;
-using VPT.Accounts.Shared.Enum;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
+using VPT.Shared.Poco.Enum.Accounts;
 
 namespace VPT.Shared.Poco.DTO.API
 {

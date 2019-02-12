@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Newtonsoft.Json;
-using VPT.Shared.Poco.DTO.API.Form;
-using VPT.Accounts.Shared.DTO.Aggregate;
-using VPT.Accounts.Shared.Enum;
-using VPT.Accounts.Shared.DTO.Form;
+﻿using Newtonsoft.Json;
 using System;
-using VPT.Accounts.Shared.DTO.Database;
+using System.Collections.Generic;
+using System.Linq;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
+using VPT.Shared.Poco.DTO.Accounts.Database;
+using VPT.Shared.Poco.DTO.Accounts.Form;
+using VPT.Shared.Poco.DTO.API.Form;
+using VPT.Shared.Poco.Enum.Accounts;
 
 namespace VPT.Shared.Poco.DTO.API
 {

@@ -1,5 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
+using VPT.Shared.Poco.DTO.Accounts.Database;
+using VPT.Shared.Poco.Enum.Accounts;
 
 namespace VPT.Shared.Poco.Model.API
 {

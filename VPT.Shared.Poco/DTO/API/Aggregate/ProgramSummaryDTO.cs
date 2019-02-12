@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VPT.Shared.Poco.Enum.API;
 using VPT.Shared.Poco.Model.API;
-using VPT.Accounts.Shared.DTO.Aggregate;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
 
 namespace VPT.Shared.Poco.DTO.API.Aggregate
 {

@@ -1,6 +1,7 @@
 ﻿using NPoco;
 using System;
 using VPT.Shared.Poco.DTO.API;
+using VPT.Shared.Poco.Enum.API;
 
 namespace VPT.Shared.Poco.Model.API
 {
@@ -19,7 +20,7 @@ namespace VPT.Shared.Poco.Model.API
             ProgramRecommendationId = source.ProgramRecommendationId;
             ParentProgramId = source.ParentProgramId;
             OffenderId = source.OffenderId;
-            Status = source.Status > 0 ? source.Status : (int)Vant4gePoint.Core.Enums.ProgramRecommendationStatusType.UnAssigned;
+            Status = source.Status > 0 ? source.Status : (int)ProgramRecommendationStatusType.UnAssigned;
             OverriddenDate = (DateTime?)null;
         }
 

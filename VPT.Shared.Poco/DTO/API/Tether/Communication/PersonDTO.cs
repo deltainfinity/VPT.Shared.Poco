@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
+using VPT.Shared.Poco.Enum.Accounts;
 
 namespace VPT.Shared.Poco.DTO.API.Tether.Communication
 {

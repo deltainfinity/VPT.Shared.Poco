@@ -1,6 +1,5 @@
 using System;
-using Vant4gePoint.Core.Constants;
-using VPT.Shared.Poco.Enum.API;
+using VPT.Shared.Poco.Constants;
 using VPT.Shared.Poco.Model.API;
 
 namespace VPT.Shared.Poco.DTO.API

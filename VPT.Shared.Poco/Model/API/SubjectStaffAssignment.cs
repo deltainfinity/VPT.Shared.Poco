@@ -1,4 +1,5 @@
 ﻿using NPoco;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
 
 namespace VPT.Shared.Poco.Model.API
 {

@@ -1,4 +1,4 @@
-﻿using VPT.Accounts.Shared.DTO.Aggregate;
+﻿using VPT.Shared.Poco.DTO.Accounts.Aggregate;
 
 namespace VPT.Shared.Poco.DTO.API.Tether.Communication
 {

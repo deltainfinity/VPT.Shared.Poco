@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using VPT.Shared.Poco.DTO.Accounts.Aggregate;
 
 namespace VPT.Shared.Poco.DTO.API.Aggregate
 {

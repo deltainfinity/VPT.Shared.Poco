@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using VPT.Shared.Poco.Enum.API;
-using VPT.Accounts.Shared.Enum;
+using VPT.Shared.Poco.Enum.Accounts;
 
 namespace VPT.Shared.Poco.DTO.API
 {

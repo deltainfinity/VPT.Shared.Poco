@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using VPT.Accounts.Shared.REST;
 using VPT.Shared.Poco.Enum.API;
 using VPT.Shared.Poco.Model.API;
 
@@ -17,7 +16,7 @@ namespace VPT.Shared.Poco.DTO.API
         /// Copy constructor to populate the classe
         /// </summary>
 
-        public SubjectGoalActionDetailDTO(SubjectGoalAction source, IEnumerable<ActionStep> actionsLookup, int SubjectUserID, IEnumerable<Program> programList, IEnumerable<SubjectProgramStatus> programStatuses, IEnumerable<SubjectProgramMapping> subjectprogramList = null)
+        public SubjectGoalActionDetailDTO(SubjectGoalAction source, IEnumerable<ActionStep> actionsLookup, int SubjectUserID, IEnumerable<Program> programList, IEnumerable<SubjectProgramStatus> programStatuses, string responsiblePersonName, IEnumerable<SubjectProgramMapping> subjectprogramList = null)
         {
             SubjectGoalActionID = source.SubjectGoalActionID;
             ActionStepID = source.ActionStepID;
@@ -31,7 +30,7 @@ namespace VPT.Shared.Poco.DTO.API
            
             ActionStepName = ProgramID.HasValue ? programList.Where(x => x.ProgramId.Equals(ProgramID.Value)).SingleOrDefault().Title : actionsLookup.Where(x => x.ActionStepID.Equals(ActionStepID)).SingleOrDefault().Name;
             ResponsiblePersonUserID = source.ResponsiblePersonUserID;
-            ResponsiblePersonName = PersonAPIClient.GetDetailsForUser(source.ResponsiblePersonUserID).FullNameFirstNameFirstFormat;
+            ResponsiblePersonName = responsiblePersonName;
             DateCreated = source.DateCreated;
             TerminatedReason = source.TerminatedReason;
             OnHoldReason = source.OnHoldReason;
