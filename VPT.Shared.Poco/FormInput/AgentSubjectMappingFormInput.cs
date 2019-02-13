@@ -40,17 +40,19 @@ namespace VPT.Shared.Poco.FormInput
         public DateTime? ExpireDate { get; set; }
 
     }
+
+    public class subjectData
+    {
+        /// <summary>
+        /// The person ID of the Aubject
+        /// </summary>
+        [JsonProperty("subjectUserID")]
+        public int SubjectUserID { get; set; }
+        /// <summary>
+        /// The name of the Subject
+        /// </summary>
+        [JsonProperty("subjectName")]
+        public string SubjectName { get; set; }
+    }
 }
-public class subjectData
-{
-    /// <summary>
-    /// The person ID of the Aubject
-    /// </summary>
-    [JsonProperty("subjectUserID")]
-    public int SubjectUserID { get; set; }
-    /// <summary>
-    /// The name of the Subject
-    /// </summary>
-    [JsonProperty("subjectName")]
-    public string SubjectName { get; set; }
-}
+
