@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ADC.API.Shared.DTOs.Assessments
+namespace VPT.Shared.Poco.DTO.API
 {
     /// <summary>
     /// DTO for Risk Level, External ID and OrganizationID
